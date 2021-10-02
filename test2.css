@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+
+}
+
+html, 
+body {
+    height: 100%;
+    background-color: black;
+}
+
+/** Header **/
+  header {     
+    background-color: #000;
+    min-height: 10%;
+
+  }
+
+    .headbox {
+      display: flex;
+      flex-direction: row;
+
+    }
+
+    #logoleft{
+      width: 10%;
+      height: 100px;
+
+    }
+    #nombre{
+      margin-top: 40px;
+      width: 80%;
+      text-align:center;
+      color: blanchedalmond;
+
+    }
+    #logoright{
+      width: 10%;
+      height: 100px;
+
+    }
+    aside {
+      text-align:left;
+      image-rendering: auto;
+      width: auto;
+    }
+    #nombre1 {
+      margin-top: 40px;
+      text-align:center;
+      color: blanchedalmond;
+      width: 70%;
+    }
+/** Header **/
+
+/** row 1**/
+  .box1 {
+      display: flex;
+      height: 20%;
+      align-items: center;
+      justify-content:flex-start; 
+      margin: 0px;
+      padding: 0px;
+      background-color: black;
+      border: solid 2px yellow;   
+    }
+
+      #box11{
+        width: 10%;
+        height: 100px;
+        background-color: blue; 
+        text-align: center; 
+      }
+    
+      #box12{
+        display: flex;
+        width: 80%;
+        /*height: 20%;*/
+        align-items: center;
+        justify-content:flex-start;
+        height: 100px;
+        background-color:black; 
+        text-align: center;  
+        margin: 5px;
+        padding: 0px; 
+      }
+          #box12a{
+            width:16.66%;
+            height: 100%;
+            background-color:gray; 
+            text-align: center; 
+            margin: 3px;  
+          }
+
+          #box12b{
+            width:16.66%;
+            height: 100%;
+            background-color: royalblue; 
+            text-align: center;   
+          }
+    
+          #box12c{
+            width:16.66%;
+            height: 100%;
+            background-color:gray; 
+            text-align: center;   
+          }
+
+          #box12d{
+            width:16.66%;
+            height: 100px;
+            background-color: royalblue; 
+            text-align: center;   
+          }
+
+         #box12e{
+            width:16.66%;
+            height: 100px;
+            background-color: grey; 
+            text-align: center;   
+          }
+
+          #box12f{
+            width:16.66%;
+            height: 100px;
+            background-color: rosybrown; 
+            text-align: center;   
+          }
+
+      #box13{
+        width: 10%;
+        height: 100px;
+        background-color:brown;
+        text-align: center;   
+      }
+/** row 1 **/
+/** row 2 **/
+  .box2 {
+    display: flex;
+    height: 20%;
+    align-items: center;
+    justify-content:flex-start;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    border: solid 2px pink;
+  }
+
+      #box21{
+        width: 20%;
+        height: 100px;
+        background-color: green;
+        text-align: center;    
+      }
+    
+      #box22{
+        width: 60%;
+        height: 100px;
+        background-color:greenyellow;
+        text-align: center;    
+      }
+    
+      #box23{
+        width: 20%;
+        height: 100px;
+        background-color: rebeccapurple;
+        text-align: center;   
+      }
+/** row 2 **/
+/** row 3 **/
+   .box3 {
+     display: flex;
+     height: 20%;
+     align-items: center;
+     justify-content:flex-start;
+     margin: 0px;
+     padding: 0px;
+     background-color: black;
+     border: solid 2px pink;
+}   
+       #box31{
+         width: 10%;
+         height: 100px;
+         background-color: grey;
+         text-align: center;    
+       }
+     
+       #box32{
+         width: 80%;
+         height: 100px;
+         background-color:yellow;
+         text-align: center;    
+       }
+     
+       #box33{
+         width: 10%;
+         height: 100px;
+         background-color: rgb(65, 74, 102);
+         text-align: center;   
+       }
+/** row 3 **/
+/** row 4 **/
+   .box4 {
+     display: flex;
+     height: 20%;
+     align-items: center;
+     justify-content:flex-start;
+     margin: 0px;
+     padding: 0px;
+     background-color:white;
+     border: solid 2px pink;
+}   
+       #box41{
+         width: 20%;
+         height: 100px;
+         background-color: grey;
+         text-align: center;    
+       }
+     
+       #box42{
+         width: 60%;
+         height: 100px;
+         background-color:yellow;
+         text-align: center;    
+       }
+     
+       #box43{
+         width: 20%;
+         height: 100px;
+         background-color: violet;
+         text-align: center;   
+       }
+/** row 4 **/
